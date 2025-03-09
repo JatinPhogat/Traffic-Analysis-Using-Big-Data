@@ -4,14 +4,14 @@
 This project analyzes traffic crash data using **Big Data Analytics** and **Machine Learning** to identify patterns, trends, and factors contributing to road accidents. The goal is to provide actionable insights to improve traffic safety and reduce severe and fatal accidents. The dataset includes attributes such as crash time, location, weather conditions, road type, severity of injuries, and contributing factors.
 
 ## 📂 Dataset
-The dataset used for this analysis is sourced from **Chicago Traffic Crash Data** and contains: **Crash Date & Time** ⏰, **Location** 📍, **Weather Conditions** 🌧️, **Crash Severity** 🚨, **Number of Units** 🚗, **Road Conditions** 🛣️, and **Injury Types** 🤕. 📥 **Download Dataset**: [Chicago Traffic Crash Data](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if)
+The dataset used for this analysis is sourced from **City of Chicago Org** has 1.9 million entries currently and contains: **Crash Date & Time** ⏰, **Location** 📍, **Weather Conditions** 🌧️, **Injury Types** 🤕 etc. 📥 **Download Dataset**: [Chicago Traffic Crash Data](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Vehicles/68nd-jvt3/data_preview)
 
 ## 🎯 Objectives
 The key objectives of this analysis are: Identify temporal patterns (yearly, hourly, and daily crash trends), analyze the relationship between crash severity and contributing factors (weather, road conditions, etc.), perform geospatial analysis to identify accident hotspots, and develop an interactive dashboard for visualizing insights.
 
-## 🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies 
 - **Python** 🖥️: Used for data preprocessing, analysis, and visualization.
-- **PySpark** 🔥: For handling large-scale data processing.
+- **PySpark** 🔥: For handling large-scale data processing. (I did not used hadoop beacuse of system issues )
 - **Streamlit** 📊: For building an interactive dashboard.
 - **Libraries**: `pandas` 🐼, `matplotlib` 📉, `seaborn` 🎨, and `folium` 🗺️.
 
