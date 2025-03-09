@@ -27,7 +27,7 @@ The key objectives of this analysis are: Identify temporal patterns (yearly, hou
 1. Install Python and required libraries: `pip install pyspark pandas matplotlib seaborn folium streamlit`.
 2. Clone the repository: `git clone https://github.com/JatinPhogat/traffic-crash-analysis.git`.
 3. Load the dataset into Python: `data = pd.read_csv("traffic_crashes.csv")`.
-4. Run the Streamlit dashboard: `streamlit run app.py`.
+4. Run the Streamlit dashboard: `streamlit run gui.py`.
 
 ## 📊 Analysis & Visualizations
 - **Temporal Analysis** ⏳: Line charts showing crash trends by year, month, day, and hour.
